@@ -1,0 +1,627 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 70vh;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: larger;
+}
+header{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(8, 0.1fr);
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 40px;
+    background-image: url(https://i.vimeocdn.com/video/1413601083-b5a8a5764fa37f3f164f4d09dbea2ba390a62e2ca6251a68a940dff3c1a255d0-d_640?f=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+header a{
+    display: grid;
+    margin-top: -525px;
+    color: rgb(39, 70, 173);
+    font-weight: bold;
+}
+.l-name{
+    display: grid;
+    margin-top: -2px;
+    gap: 20rem;
+    color: black;
+    margin-left: -100px;
+    margin-top: -525px;
+}
+.l-name2{
+    display: grid;
+    margin-left: 120px;
+    margin-top: -2px;
+    gap: 20rem;
+    color: black;
+    margin-top: -525px;
+}
+.box{
+    display: grid;
+    padding: 150px;
+    place-content: center;
+    background-color: rgba(255, 255, 255, 0.169);
+}
+.campaigns{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.img-camp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.camp-descr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    padding: 50px;
+    margin-left: -50px;
+
+}
+.camp-descr1{
+    display: flex;
+    position: absolute;
+    color: black;
+}
+hr{
+    display: grid;
+    margin-top: 10px;
+    width: 1400px;
+    margin-left: 50px;
+}
+.B-D{
+    display: grid;
+    padding: 50px;
+    place-content: center;
+    grid-template-columns: repeat(2,400px);
+    gap: 30rem;
+    font-size: 30px;
+}
+.B-D button{
+    width: 200px;
+    font-size: 13px;
+    margin-top: 50px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+.B-D .log{
+    font-size: 100px;
+}
+.types{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3,400px);
+    padding: 20px;
+    gap: 3rem;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.info-photo a{
+    display: grid;
+    color: black;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.info-photo p{
+    display: grid;
+    margin-top: 10px;
+}
+.hr-text{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    margin-top: 10px;
+}
+.food_campaign{
+    display: grid;
+    place-content: center;
+    padding: 30px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(2,100px);
+    gap: 15rem;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.KFC{
+    display: grid;
+    margin-top: -50px;
+}
+.KFC .line{
+    display: grid;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -50px;
+    margin-left: -5px;
+}
+.head{
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: repeat(1,100px);
+    padding: 60px;
+    font-size: 50px;
+}
+.line{
+    display: grid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -10px;
+    margin-left: 14px;
+}
+.KFC .info-logo{
+    margin-top: 60px;
+}
+.info-logo{
+    display: grid;
+    margin-top: 100px;
+    gap: 3rem;
+    font-size: 18px;
+}
+.info-logo h5{
+    display: grid;
+    font-size: 25px;
+}
+.fc{
+    display: grid;
+    margin-top: 10px;
+    height: 0px;
+}
+.color-change{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2,400px);
+    padding: 100px;
+    gap: 20rem;
+}
+.c-left{
+    display: grid;
+    place-content: center;
+    padding: 100px;
+    font-size: 40px;
+    gap: 1rem;
+    margin-left: -150px;
+    margin-top: -110px;
+}
+.c-left p{
+    display: grid;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.c-left button{
+    display: grid;
+    margin-top: 100px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+.c-left button p{
+    display: grid;
+    place-content: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.prod-head h1{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2,400px);
+    margin-left: -70px;
+}
+.prod-head {
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: repeat(2,600px);
+    font-size: 30px;
+    gap: 1rem;
+    margin-top: -110px;
+    margin-left: 180px;
+}
+.prod-head button{
+    display: grid;
+    place-content: center;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.pd{
+    display: grid;
+    margin-top: 10px;
+    height: 0;
+}
+.prd1{
+    display: grid;
+    grid-template-columns: repeat(3,420px);
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.prd1 h3 {
+    display: grid;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.prd1 h3:hover{
+    text-decoration: underline;
+    font-size: 32px;
+}
+.prd1 h4 {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.data{
+    display: grid;
+    font-size: 15px;
+    margin-left: 420px;
+    margin-top: -50px;
+    grid-template-columns: repeat(2,50px);
+}
+footer{
+    display: grid;
+    background-color: rgb(41, 38, 36);
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    padding: 40px;
+    color: white;
+}
+.first-hr{
+    margin-top: 100px;
+}
+.head2{
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    font-size: 60px;
+}
+.head2 p{
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.platforms{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.platforms p{
+    display: grid;
+    margin-top: 10px;
+}
+input{
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    width: 300px;
+    color: white;
+    border:none;
+    text-decoration-line:  white underline;
+    background-color: rgb(41, 38, 36);
+    height: 40px;
+}
+.e-send{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: 60px;
+    background-color: rgb(41, 38, 36);
+    color: white;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+.cont{
+    color: white;
+}
+@media screen and (max-width:450px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        margin-left: 700px;
+    }
+    header{
+        display: none;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .campaigns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 1000px;
+        font-size: 40px;
+        margin-top: -200px;
+    }
+    .img-camp{
+        display: flex;
+        width: 1000px;
+        height: 600px;
+        flex-direction: column-reverse;
+        padding: 100px;
+    }
+    .camp-descr1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: -200px;
+        text-align: center;
+    }
+    .camp-descr {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: -100px;
+        text-align: center;
+    }
+    .first-hr{
+        display: flex;
+        margin-top: 900px;
+    }
+    .B-D{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .B-D .text{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-size: 60px;
+        padding: 200px;
+    }
+    .text button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 350px;
+        font-size: 30px;
+        width: 280px;
+        height: 80px;
+    }
+    .log{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -500px;
+    }
+    .types{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .type1 img{
+        display: flex;
+        width: 1200px;
+        height: 1200px;
+    }
+    .type2 img{
+        display: flex;
+        width: 1200px;
+        height: 1200px;
+    }
+    .type3 img{
+        display: flex;
+        width: 1200px;
+        height: 1200px;
+    }
+    .types .info-photo{
+        font-size: 35px;
+    }
+    .types a{
+        font-size: 70px;
+    }
+    hr{
+        width: 1200px;
+    }
+    .hr-text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 30rem;
+        font-size: 30px;
+    }
+    .head{
+        display: flex;
+        margin-top: 90px;
+    }
+    .food_campaign{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .logo-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 200px;
+        margin-left: 400px;
+    }
+    .line{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-left: 460px;
+    }
+    .KFC .line{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-left: 460px;
+    }
+    .info-logo{
+        font-size: 90px;
+    }
+    .info-logo h5{
+        font-size: 50px;
+    }
+    .color-change{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .color-change img{
+        width: 1300px;
+        height: 1000px;
+    }
+   .c-left{
+     margin-left: 100px;
+   }
+   .c-left button{
+     display: flex;
+     justify-content: center;
+     width: 250px;
+     border-radius: 50px;
+     height: 100px;
+     font-size: 40px;
+     margin-left: 380px;
+   }
+   .c-left button p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+   }
+   .c-left p{
+    font-size: 40px;
+   }
+   .prod-head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+
+   }
+   .prod-head button{
+        width: 250px;
+        height: 100px;
+        font-size: 30px;
+        border-radius: 40px;
+        margin-left: 30px;
+   }
+   .prd1{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+   }
+   .prd1 img{
+        width: 1300px;
+        margin-left: 100px;
+   }
+   .data{
+      display:none
+   }
+   footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+   }
+   .head2{
+        display: flex;
+        margin-left: 200px;
+        font-size: 40px;
+        margin-top: 100px;
+   }
+   .platforms{
+    display: flex;
+    margin-top: 200px;
+   }
+   .platforms p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+   }
+   input{
+    display: none
+   }
+   .plat{
+    display: none;
+   }
+   label{
+    display: none;
+   }
+   .social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    font-size: 30px;
+   }
+   .inv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 300px;
+    font-size: 30px;
+   }
+   .office{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 300px;
+    font-size: 30px;
+   }
+
+    
+}
+
